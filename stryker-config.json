@@ -1,7 +1,7 @@
 {
     "stryker-config": {
         "project-info": {
-            "name": "github.com/fabiolune/functional-utils"
+            "name": "github.com/fabiolune/shared-utils"
         },
         "mutation-level": "advanced"
     }
