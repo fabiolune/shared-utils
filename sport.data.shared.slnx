@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/Fl.Shared.Utils.Components.Unit.Tests/Fl.Shared.Utils.Components.Unit.Tests.csproj" />
+    <Project Path="tests/Fl.Shared.Utils.Mappers.Tests/Fl.Shared.Utils.Mappers.Tests.csproj" />
+  </Folder>
+  <Project Path="Fl.Shared.Utils.Components.Web.Models/Fl.Shared.Utils.Components.Web.Models.csproj" />
+  <Project Path="Fl.Shared.Utils.Components/Fl.Shared.Utils.Components.csproj" />
+  <Project Path="Fl.Shared.Utils.Mappers/Fl.Shared.Utils.Mappers.csproj" />
+</Solution>
