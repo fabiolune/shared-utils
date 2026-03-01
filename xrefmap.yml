@@ -1,0 +1,967 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Builder
+  name: Fl.Shared.Utils.Components.Logging.Extensions.Builder
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Builder.html
+  commentId: N:Fl.Shared.Utils.Components.Logging.Extensions.Builder
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Builder
+  nameWithType: Fl.Shared.Utils.Components.Logging.Extensions.Builder
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions
+  name: LoggingWebApplicationBuilderExtensions
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions
+  nameWithType: LoggingWebApplicationBuilderExtensions
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.AddSerilogLogging(Microsoft.AspNetCore.Builder.WebApplicationBuilder)
+  name: AddSerilogLogging(WebApplicationBuilder)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Builder_LoggingWebApplicationBuilderExtensions_AddSerilogLogging_Microsoft_AspNetCore_Builder_WebApplicationBuilder_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.AddSerilogLogging(Microsoft.AspNetCore.Builder.WebApplicationBuilder)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.AddSerilogLogging(Microsoft.AspNetCore.Builder.WebApplicationBuilder)
+  nameWithType: LoggingWebApplicationBuilderExtensions.AddSerilogLogging(WebApplicationBuilder)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.AddSerilogLogging*
+  name: AddSerilogLogging
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Builder_LoggingWebApplicationBuilderExtensions_AddSerilogLogging_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.AddSerilogLogging
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.AddSerilogLogging
+  nameWithType: LoggingWebApplicationBuilderExtensions.AddSerilogLogging
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Either
+  name: Fl.Shared.Utils.Components.Logging.Extensions.Either
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Either.html
+  commentId: N:Fl.Shared.Utils.Components.Logging.Extensions.Either
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Either
+  nameWithType: Fl.Shared.Utils.Components.Logging.Extensions.Either
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions
+  name: EitherLoggingExtensions
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions
+  nameWithType: EitherLoggingExtensions
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog*
+  name: TeeLog
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Either_EitherLoggingExtensions_TeeLog_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog
+  nameWithType: EitherLoggingExtensions.TeeLog
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog``1(LanguageExt.EitherAsync{LanguageExt.Common.Error,``0},Serilog.ILogger,System.String)
+  name: TeeLog<T>(EitherAsync<Error, T>, ILogger, string)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Either_EitherLoggingExtensions_TeeLog__1_LanguageExt_EitherAsync_LanguageExt_Common_Error___0__Serilog_ILogger_System_String_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog``1(LanguageExt.EitherAsync{LanguageExt.Common.Error,``0},Serilog.ILogger,System.String)
+  name.vb: TeeLog(Of T)(EitherAsync(Of Error, T), ILogger, String)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog<T>(LanguageExt.EitherAsync<LanguageExt.Common.Error, T>, Serilog.ILogger, string)
+  fullName.vb: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog(Of T)(LanguageExt.EitherAsync(Of LanguageExt.Common.Error, T), Serilog.ILogger, String)
+  nameWithType: EitherLoggingExtensions.TeeLog<T>(EitherAsync<Error, T>, ILogger, string)
+  nameWithType.vb: EitherLoggingExtensions.TeeLog(Of T)(EitherAsync(Of Error, T), ILogger, String)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog``1(LanguageExt.EitherAsync{LanguageExt.Common.Error,``0},Serilog.ILogger,System.String,System.Object[])
+  name: TeeLog<T>(EitherAsync<Error, T>, ILogger, string, params object[])
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Either_EitherLoggingExtensions_TeeLog__1_LanguageExt_EitherAsync_LanguageExt_Common_Error___0__Serilog_ILogger_System_String_System_Object___
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog``1(LanguageExt.EitherAsync{LanguageExt.Common.Error,``0},Serilog.ILogger,System.String,System.Object[])
+  name.vb: TeeLog(Of T)(EitherAsync(Of Error, T), ILogger, String, ParamArray Object())
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog<T>(LanguageExt.EitherAsync<LanguageExt.Common.Error, T>, Serilog.ILogger, string, params object[])
+  fullName.vb: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog(Of T)(LanguageExt.EitherAsync(Of LanguageExt.Common.Error, T), Serilog.ILogger, String, ParamArray Object())
+  nameWithType: EitherLoggingExtensions.TeeLog<T>(EitherAsync<Error, T>, ILogger, string, params object[])
+  nameWithType.vb: EitherLoggingExtensions.TeeLog(Of T)(EitherAsync(Of Error, T), ILogger, String, ParamArray Object())
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog``1(LanguageExt.Either{LanguageExt.Common.Error,``0},Serilog.ILogger,System.String)
+  name: TeeLog<T>(Either<Error, T>, ILogger, string)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Either_EitherLoggingExtensions_TeeLog__1_LanguageExt_Either_LanguageExt_Common_Error___0__Serilog_ILogger_System_String_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog``1(LanguageExt.Either{LanguageExt.Common.Error,``0},Serilog.ILogger,System.String)
+  name.vb: TeeLog(Of T)(Either(Of Error, T), ILogger, String)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog<T>(LanguageExt.Either<LanguageExt.Common.Error, T>, Serilog.ILogger, string)
+  fullName.vb: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog(Of T)(LanguageExt.Either(Of LanguageExt.Common.Error, T), Serilog.ILogger, String)
+  nameWithType: EitherLoggingExtensions.TeeLog<T>(Either<Error, T>, ILogger, string)
+  nameWithType.vb: EitherLoggingExtensions.TeeLog(Of T)(Either(Of Error, T), ILogger, String)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog``1(LanguageExt.Either{LanguageExt.Common.Error,``0},Serilog.ILogger,System.String,System.Object[])
+  name: TeeLog<T>(Either<Error, T>, ILogger, string, params object[])
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Either_EitherLoggingExtensions_TeeLog__1_LanguageExt_Either_LanguageExt_Common_Error___0__Serilog_ILogger_System_String_System_Object___
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog``1(LanguageExt.Either{LanguageExt.Common.Error,``0},Serilog.ILogger,System.String,System.Object[])
+  name.vb: TeeLog(Of T)(Either(Of Error, T), ILogger, String, ParamArray Object())
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog<T>(LanguageExt.Either<LanguageExt.Common.Error, T>, Serilog.ILogger, string, params object[])
+  fullName.vb: Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.TeeLog(Of T)(LanguageExt.Either(Of LanguageExt.Common.Error, T), Serilog.ILogger, String, ParamArray Object())
+  nameWithType: EitherLoggingExtensions.TeeLog<T>(Either<Error, T>, ILogger, string, params object[])
+  nameWithType.vb: EitherLoggingExtensions.TeeLog(Of T)(Either(Of Error, T), ILogger, String, ParamArray Object())
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Error
+  name: Fl.Shared.Utils.Components.Logging.Extensions.Error
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Error.html
+  commentId: N:Fl.Shared.Utils.Components.Logging.Extensions.Error
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Error
+  nameWithType: Fl.Shared.Utils.Components.Logging.Extensions.Error
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions
+  name: ErrorExtensions
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions
+  nameWithType: ErrorExtensions
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction(LanguageExt.Common.Error,Serilog.ILogger,System.String)
+  name: ToLoggingAction(Error, ILogger, string)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Error_ErrorExtensions_ToLoggingAction_LanguageExt_Common_Error_Serilog_ILogger_System_String_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction(LanguageExt.Common.Error,Serilog.ILogger,System.String)
+  name.vb: ToLoggingAction(Error, ILogger, String)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction(LanguageExt.Common.Error, Serilog.ILogger, string)
+  fullName.vb: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction(LanguageExt.Common.Error, Serilog.ILogger, String)
+  nameWithType: ErrorExtensions.ToLoggingAction(Error, ILogger, string)
+  nameWithType.vb: ErrorExtensions.ToLoggingAction(Error, ILogger, String)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction(LanguageExt.Common.Error,Serilog.ILogger,System.String,System.Object[])
+  name: ToLoggingAction(Error, ILogger, string, params object[])
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Error_ErrorExtensions_ToLoggingAction_LanguageExt_Common_Error_Serilog_ILogger_System_String_System_Object___
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction(LanguageExt.Common.Error,Serilog.ILogger,System.String,System.Object[])
+  name.vb: ToLoggingAction(Error, ILogger, String, ParamArray Object())
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction(LanguageExt.Common.Error, Serilog.ILogger, string, params object[])
+  fullName.vb: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction(LanguageExt.Common.Error, Serilog.ILogger, String, ParamArray Object())
+  nameWithType: ErrorExtensions.ToLoggingAction(Error, ILogger, string, params object[])
+  nameWithType.vb: ErrorExtensions.ToLoggingAction(Error, ILogger, String, ParamArray Object())
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction*
+  name: ToLoggingAction
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_Error_ErrorExtensions_ToLoggingAction_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.ToLoggingAction
+  nameWithType: ErrorExtensions.ToLoggingAction
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder
+  name: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.html
+  commentId: N:Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder
+  nameWithType: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions
+  name: HostBuilderExtensions
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions
+  nameWithType: HostBuilderExtensions
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging(Microsoft.Extensions.Hosting.IHostBuilder,Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration)
+  name: AddSerilogLogging(IHostBuilder, SerilogConfiguration)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_HostBuilder_HostBuilderExtensions_AddSerilogLogging_Microsoft_Extensions_Hosting_IHostBuilder_Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging(Microsoft.Extensions.Hosting.IHostBuilder,Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging(Microsoft.Extensions.Hosting.IHostBuilder, Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration)
+  nameWithType: HostBuilderExtensions.AddSerilogLogging(IHostBuilder, SerilogConfiguration)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging(Microsoft.Extensions.Hosting.IHostBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddSerilogLogging(IHostBuilder, IConfiguration)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_HostBuilder_HostBuilderExtensions_AddSerilogLogging_Microsoft_Extensions_Hosting_IHostBuilder_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging(Microsoft.Extensions.Hosting.IHostBuilder,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging(Microsoft.Extensions.Hosting.IHostBuilder, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: HostBuilderExtensions.AddSerilogLogging(IHostBuilder, IConfiguration)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging*
+  name: AddSerilogLogging
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_HostBuilder_HostBuilderExtensions_AddSerilogLogging_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.AddSerilogLogging
+  nameWithType: HostBuilderExtensions.AddSerilogLogging
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration
+  name: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.html
+  commentId: N:Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration
+  nameWithType: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions
+  name: LoggerConfigurationExtensions
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions
+  nameWithType: LoggerConfigurationExtensions
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration)
+  name: ConfigureDefault(LoggerConfiguration)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_LoggerConfiguration_LoggerConfigurationExtensions_ConfigureDefault_Serilog_LoggerConfiguration_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration)
+  nameWithType: LoggerConfigurationExtensions.ConfigureDefault(LoggerConfiguration)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration,Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration)
+  name: ConfigureDefault(LoggerConfiguration, SerilogConfiguration)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_LoggerConfiguration_LoggerConfigurationExtensions_ConfigureDefault_Serilog_LoggerConfiguration_Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration,Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration, Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration)
+  nameWithType: LoggerConfigurationExtensions.ConfigureDefault(LoggerConfiguration, SerilogConfiguration)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration,Serilog.Events.LogEventLevel)
+  name: ConfigureDefault(LoggerConfiguration, LogEventLevel)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_LoggerConfiguration_LoggerConfigurationExtensions_ConfigureDefault_Serilog_LoggerConfiguration_Serilog_Events_LogEventLevel_
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration,Serilog.Events.LogEventLevel)
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration, Serilog.Events.LogEventLevel)
+  nameWithType: LoggerConfigurationExtensions.ConfigureDefault(LoggerConfiguration, LogEventLevel)
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration,Serilog.Events.LogEventLevel,System.Collections.Generic.IDictionary{System.String,Serilog.Events.LogEventLevel})
+  name: ConfigureDefault(LoggerConfiguration, LogEventLevel, IDictionary<string, LogEventLevel>)
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_LoggerConfiguration_LoggerConfigurationExtensions_ConfigureDefault_Serilog_LoggerConfiguration_Serilog_Events_LogEventLevel_System_Collections_Generic_IDictionary_System_String_Serilog_Events_LogEventLevel__
+  commentId: M:Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration,Serilog.Events.LogEventLevel,System.Collections.Generic.IDictionary{System.String,Serilog.Events.LogEventLevel})
+  name.vb: ConfigureDefault(LoggerConfiguration, LogEventLevel, IDictionary(Of String, LogEventLevel))
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration, Serilog.Events.LogEventLevel, System.Collections.Generic.IDictionary<string, Serilog.Events.LogEventLevel>)
+  fullName.vb: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault(Serilog.LoggerConfiguration, Serilog.Events.LogEventLevel, System.Collections.Generic.IDictionary(Of String, Serilog.Events.LogEventLevel))
+  nameWithType: LoggerConfigurationExtensions.ConfigureDefault(LoggerConfiguration, LogEventLevel, IDictionary<string, LogEventLevel>)
+  nameWithType.vb: LoggerConfigurationExtensions.ConfigureDefault(LoggerConfiguration, LogEventLevel, IDictionary(Of String, LogEventLevel))
+- uid: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault*
+  name: ConfigureDefault
+  href: api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.html#Fl_Shared_Utils_Components_Logging_Extensions_LoggerConfiguration_LoggerConfigurationExtensions_ConfigureDefault_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.ConfigureDefault
+  nameWithType: LoggerConfigurationExtensions.ConfigureDefault
+- uid: Fl.Shared.Utils.Components.Logging.Models
+  name: Fl.Shared.Utils.Components.Logging.Models
+  href: api/Fl.Shared.Utils.Components.Logging.Models.html
+  commentId: N:Fl.Shared.Utils.Components.Logging.Models
+  fullName: Fl.Shared.Utils.Components.Logging.Models
+  nameWithType: Fl.Shared.Utils.Components.Logging.Models
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration
+  name: SerilogConfiguration
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html
+  commentId: T:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration
+  nameWithType: SerilogConfiguration
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Customer
+  name: Customer
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_Customer
+  commentId: P:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Customer
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Customer
+  nameWithType: SerilogConfiguration.Customer
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Customer*
+  name: Customer
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_Customer_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Customer
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Customer
+  nameWithType: SerilogConfiguration.Customer
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Environment
+  name: Environment
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_Environment
+  commentId: P:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Environment
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Environment
+  nameWithType: SerilogConfiguration.Environment
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Environment*
+  name: Environment
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_Environment_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Environment
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Environment
+  nameWithType: SerilogConfiguration.Environment
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.MinimumLevel
+  name: MinimumLevel
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_MinimumLevel
+  commentId: P:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.MinimumLevel
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.MinimumLevel
+  nameWithType: SerilogConfiguration.MinimumLevel
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.MinimumLevel*
+  name: MinimumLevel
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_MinimumLevel_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.MinimumLevel
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.MinimumLevel
+  nameWithType: SerilogConfiguration.MinimumLevel
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Overrides
+  name: Overrides
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_Overrides
+  commentId: P:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Overrides
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Overrides
+  nameWithType: SerilogConfiguration.Overrides
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Overrides*
+  name: Overrides
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_Overrides_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Overrides
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.Overrides
+  nameWithType: SerilogConfiguration.Overrides
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.System
+  name: System
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_System
+  commentId: P:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.System
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.System
+  nameWithType: SerilogConfiguration.System
+- uid: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.System*
+  name: System
+  href: api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html#Fl_Shared_Utils_Components_Logging_Models_SerilogConfiguration_System_
+  commentId: Overload:Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.System
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.System
+  nameWithType: SerilogConfiguration.System
+- uid: Fl.Shared.Utils.Components.Web.Endpoints
+  name: Fl.Shared.Utils.Components.Web.Endpoints
+  href: api/Fl.Shared.Utils.Components.Web.Endpoints.html
+  commentId: N:Fl.Shared.Utils.Components.Web.Endpoints
+  fullName: Fl.Shared.Utils.Components.Web.Endpoints
+  nameWithType: Fl.Shared.Utils.Components.Web.Endpoints
+- uid: Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint
+  name: IEndpoint
+  href: api/Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint
+  fullName: Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint
+  nameWithType: IEndpoint
+- uid: Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.DefineEndpoints(Microsoft.AspNetCore.Builder.WebApplication)
+  name: DefineEndpoints(WebApplication)
+  href: api/Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.html#Fl_Shared_Utils_Components_Web_Endpoints_IEndpoint_DefineEndpoints_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.DefineEndpoints(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.DefineEndpoints(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: IEndpoint.DefineEndpoints(WebApplication)
+- uid: Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.DefineEndpoints*
+  name: DefineEndpoints
+  href: api/Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.html#Fl_Shared_Utils_Components_Web_Endpoints_IEndpoint_DefineEndpoints_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.DefineEndpoints
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.DefineEndpoints
+  nameWithType: IEndpoint.DefineEndpoints
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection
+  name: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.html
+  commentId: N:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection
+  nameWithType: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions
+  name: EndpointServiceCollectionExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions
+  nameWithType: EndpointServiceCollectionExtensions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly[])
+  name: AddEndpointDefinitions(IServiceCollection, params Assembly[])
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_EndpointServiceCollectionExtensions_AddEndpointDefinitions_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Reflection_Assembly___
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly[])
+  name.vb: AddEndpointDefinitions(IServiceCollection, ParamArray Assembly())
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions(Microsoft.Extensions.DependencyInjection.IServiceCollection, params System.Reflection.Assembly[])
+  fullName.vb: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions(Microsoft.Extensions.DependencyInjection.IServiceCollection, ParamArray System.Reflection.Assembly())
+  nameWithType: EndpointServiceCollectionExtensions.AddEndpointDefinitions(IServiceCollection, params Assembly[])
+  nameWithType.vb: EndpointServiceCollectionExtensions.AddEndpointDefinitions(IServiceCollection, ParamArray Assembly())
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Type[])
+  name: AddEndpointDefinitions(IServiceCollection, params Type[])
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_EndpointServiceCollectionExtensions_AddEndpointDefinitions_Microsoft_Extensions_DependencyInjection_IServiceCollection_System_Type___
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Type[])
+  name.vb: AddEndpointDefinitions(IServiceCollection, ParamArray Type())
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions(Microsoft.Extensions.DependencyInjection.IServiceCollection, params System.Type[])
+  fullName.vb: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions(Microsoft.Extensions.DependencyInjection.IServiceCollection, ParamArray System.Type())
+  nameWithType: EndpointServiceCollectionExtensions.AddEndpointDefinitions(IServiceCollection, params Type[])
+  nameWithType.vb: EndpointServiceCollectionExtensions.AddEndpointDefinitions(IServiceCollection, ParamArray Type())
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions*
+  name: AddEndpointDefinitions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_EndpointServiceCollectionExtensions_AddEndpointDefinitions_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.AddEndpointDefinitions
+  nameWithType: EndpointServiceCollectionExtensions.AddEndpointDefinitions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions
+  name: JsonSerializationServiceCollectionExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions
+  nameWithType: JsonSerializationServiceCollectionExtensions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.AddJsonSerializationConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddJsonSerializationConfiguration(IServiceCollection)
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_JsonSerializationServiceCollectionExtensions_AddJsonSerializationConfiguration_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.AddJsonSerializationConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.AddJsonSerializationConfiguration(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: JsonSerializationServiceCollectionExtensions.AddJsonSerializationConfiguration(IServiceCollection)
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.AddJsonSerializationConfiguration*
+  name: AddJsonSerializationConfiguration
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_JsonSerializationServiceCollectionExtensions_AddJsonSerializationConfiguration_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.AddJsonSerializationConfiguration
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.AddJsonSerializationConfiguration
+  nameWithType: JsonSerializationServiceCollectionExtensions.AddJsonSerializationConfiguration
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions
+  name: RoutingBasePathServiceCollectionExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions
+  nameWithType: RoutingBasePathServiceCollectionExtensions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.AddRoutingBasePath(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddRoutingBasePath(IServiceCollection, IConfiguration)
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_RoutingBasePathServiceCollectionExtensions_AddRoutingBasePath_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.AddRoutingBasePath(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.AddRoutingBasePath(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: RoutingBasePathServiceCollectionExtensions.AddRoutingBasePath(IServiceCollection, IConfiguration)
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.AddRoutingBasePath*
+  name: AddRoutingBasePath
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_RoutingBasePathServiceCollectionExtensions_AddRoutingBasePath_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.AddRoutingBasePath
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.AddRoutingBasePath
+  nameWithType: RoutingBasePathServiceCollectionExtensions.AddRoutingBasePath
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions
+  name: ServiceCollectionExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions
+  nameWithType: ServiceCollectionExtensions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddDefaultComponents(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddDefaultComponents(IServiceCollection, IConfiguration)
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_ServiceCollectionExtensions_AddDefaultComponents_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddDefaultComponents(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddDefaultComponents(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddDefaultComponents(IServiceCollection, IConfiguration)
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddDefaultComponents*
+  name: AddDefaultComponents
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_ServiceCollectionExtensions_AddDefaultComponents_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddDefaultComponents
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddDefaultComponents
+  nameWithType: ServiceCollectionExtensions.AddDefaultComponents
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddFromAppConfiguration*
+  name: AddFromAppConfiguration
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_ServiceCollectionExtensions_AddFromAppConfiguration_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddFromAppConfiguration
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddFromAppConfiguration
+  nameWithType: ServiceCollectionExtensions.AddFromAppConfiguration
+- uid: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddFromAppConfiguration``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddFromAppConfiguration<T>(IServiceCollection, IConfiguration)
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_ServiceCollection_ServiceCollectionExtensions_AddFromAppConfiguration__1_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddFromAppConfiguration``1(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name.vb: AddFromAppConfiguration(Of T)(IServiceCollection, IConfiguration)
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddFromAppConfiguration<T>(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  fullName.vb: Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.AddFromAppConfiguration(Of T)(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: ServiceCollectionExtensions.AddFromAppConfiguration<T>(IServiceCollection, IConfiguration)
+  nameWithType.vb: ServiceCollectionExtensions.AddFromAppConfiguration(Of T)(IServiceCollection, IConfiguration)
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication
+  name: Fl.Shared.Utils.Components.Web.Extensions.WebApplication
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.html
+  commentId: N:Fl.Shared.Utils.Components.Web.Extensions.WebApplication
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication
+  nameWithType: Fl.Shared.Utils.Components.Web.Extensions.WebApplication
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions
+  name: ApplicationBuilderExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions
+  nameWithType: ApplicationBuilderExtensions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.UseDefaultMiddlewares(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseDefaultMiddlewares(WebApplication)
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_WebApplication_ApplicationBuilderExtensions_UseDefaultMiddlewares_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.UseDefaultMiddlewares(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.UseDefaultMiddlewares(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: ApplicationBuilderExtensions.UseDefaultMiddlewares(WebApplication)
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.UseDefaultMiddlewares*
+  name: UseDefaultMiddlewares
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_WebApplication_ApplicationBuilderExtensions_UseDefaultMiddlewares_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.UseDefaultMiddlewares
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.UseDefaultMiddlewares
+  nameWithType: ApplicationBuilderExtensions.UseDefaultMiddlewares
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions
+  name: EndpointWebApplicationExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions
+  nameWithType: EndpointWebApplicationExtensions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.UseEndpointDefinitions(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseEndpointDefinitions(WebApplication)
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_WebApplication_EndpointWebApplicationExtensions_UseEndpointDefinitions_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.UseEndpointDefinitions(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.UseEndpointDefinitions(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: EndpointWebApplicationExtensions.UseEndpointDefinitions(WebApplication)
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.UseEndpointDefinitions*
+  name: UseEndpointDefinitions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_WebApplication_EndpointWebApplicationExtensions_UseEndpointDefinitions_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.UseEndpointDefinitions
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.UseEndpointDefinitions
+  nameWithType: EndpointWebApplicationExtensions.UseEndpointDefinitions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions
+  name: RoutingBasePathWebApplicationExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions
+  nameWithType: RoutingBasePathWebApplicationExtensions
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.UseRoutingBasePath(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseRoutingBasePath(WebApplication)
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_WebApplication_RoutingBasePathWebApplicationExtensions_UseRoutingBasePath_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.UseRoutingBasePath(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.UseRoutingBasePath(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: RoutingBasePathWebApplicationExtensions.UseRoutingBasePath(WebApplication)
+- uid: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.UseRoutingBasePath*
+  name: UseRoutingBasePath
+  href: api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.html#Fl_Shared_Utils_Components_Web_Extensions_WebApplication_RoutingBasePathWebApplicationExtensions_UseRoutingBasePath_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.UseRoutingBasePath
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.UseRoutingBasePath
+  nameWithType: RoutingBasePathWebApplicationExtensions.UseRoutingBasePath
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler
+  name: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.html
+  commentId: N:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler
+  nameWithType: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions
+  name: ExceptionHandlerApplicationBuilderExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions
+  nameWithType: ExceptionHandlerApplicationBuilderExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.UseJsonExceptionHandler(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseJsonExceptionHandler(WebApplication)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ExceptionHandler_ExceptionHandlerApplicationBuilderExtensions_UseJsonExceptionHandler_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.UseJsonExceptionHandler(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.UseJsonExceptionHandler(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: ExceptionHandlerApplicationBuilderExtensions.UseJsonExceptionHandler(WebApplication)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.UseJsonExceptionHandler*
+  name: UseJsonExceptionHandler
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ExceptionHandler_ExceptionHandlerApplicationBuilderExtensions_UseJsonExceptionHandler_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.UseJsonExceptionHandler
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.UseJsonExceptionHandler
+  nameWithType: ExceptionHandlerApplicationBuilderExtensions.UseJsonExceptionHandler
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware
+  name: JsonExceptionHandlerMiddleware
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware
+  nameWithType: JsonExceptionHandlerMiddleware
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)
+  name: InvokeAsync(HttpContext, RequestDelegate)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_ExceptionHandler_JsonExceptionHandlerMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_Microsoft_AspNetCore_Http_RequestDelegate_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext, Microsoft.AspNetCore.Http.RequestDelegate)
+  nameWithType: JsonExceptionHandlerMiddleware.InvokeAsync(HttpContext, RequestDelegate)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_ExceptionHandler_JsonExceptionHandlerMiddleware_InvokeAsync_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.InvokeAsync
+  nameWithType: JsonExceptionHandlerMiddleware.InvokeAsync
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions
+  name: RequestLogContextServiceCollectionExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions
+  nameWithType: RequestLogContextServiceCollectionExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.AddExceptionHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddExceptionHandler(IServiceCollection)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ExceptionHandler_RequestLogContextServiceCollectionExtensions_AddExceptionHandler_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.AddExceptionHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.AddExceptionHandler(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: RequestLogContextServiceCollectionExtensions.AddExceptionHandler(IServiceCollection)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.AddExceptionHandler*
+  name: AddExceptionHandler
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ExceptionHandler_RequestLogContextServiceCollectionExtensions_AddExceptionHandler_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.AddExceptionHandler
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.AddExceptionHandler
+  nameWithType: RequestLogContextServiceCollectionExtensions.AddExceptionHandler
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext
+  name: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.html
+  commentId: N:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext
+  nameWithType: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions
+  name: RequestLogContextApplicationBuilderExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions
+  nameWithType: RequestLogContextApplicationBuilderExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.UseRequestLogContext(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseRequestLogContext(WebApplication)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_RequestLogContext_RequestLogContextApplicationBuilderExtensions_UseRequestLogContext_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.UseRequestLogContext(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.UseRequestLogContext(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: RequestLogContextApplicationBuilderExtensions.UseRequestLogContext(WebApplication)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.UseRequestLogContext*
+  name: UseRequestLogContext
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_RequestLogContext_RequestLogContextApplicationBuilderExtensions_UseRequestLogContext_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.UseRequestLogContext
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.UseRequestLogContext
+  nameWithType: RequestLogContextApplicationBuilderExtensions.UseRequestLogContext
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware
+  name: RequestLogContextMiddleware
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware
+  nameWithType: RequestLogContextMiddleware
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.#ctor(CorrelationId.Abstractions.ICorrelationContextAccessor)
+  name: RequestLogContextMiddleware(ICorrelationContextAccessor)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_RequestLogContext_RequestLogContextMiddleware__ctor_CorrelationId_Abstractions_ICorrelationContextAccessor_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.#ctor(CorrelationId.Abstractions.ICorrelationContextAccessor)
+  name.vb: New(ICorrelationContextAccessor)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.RequestLogContextMiddleware(CorrelationId.Abstractions.ICorrelationContextAccessor)
+  fullName.vb: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.New(CorrelationId.Abstractions.ICorrelationContextAccessor)
+  nameWithType: RequestLogContextMiddleware.RequestLogContextMiddleware(ICorrelationContextAccessor)
+  nameWithType.vb: RequestLogContextMiddleware.New(ICorrelationContextAccessor)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.#ctor*
+  name: RequestLogContextMiddleware
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_RequestLogContext_RequestLogContextMiddleware__ctor_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.RequestLogContextMiddleware
+  fullName.vb: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.New
+  nameWithType: RequestLogContextMiddleware.RequestLogContextMiddleware
+  nameWithType.vb: RequestLogContextMiddleware.New
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)
+  name: InvokeAsync(HttpContext, RequestDelegate)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_RequestLogContext_RequestLogContextMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_Microsoft_AspNetCore_Http_RequestDelegate_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext, Microsoft.AspNetCore.Http.RequestDelegate)
+  nameWithType: RequestLogContextMiddleware.InvokeAsync(HttpContext, RequestDelegate)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_RequestLogContext_RequestLogContextMiddleware_InvokeAsync_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.InvokeAsync
+  nameWithType: RequestLogContextMiddleware.InvokeAsync
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions
+  name: RequestLogContextServiceCollectionExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions
+  nameWithType: RequestLogContextServiceCollectionExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.AddRequestLogContext(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddRequestLogContext(IServiceCollection)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_RequestLogContext_RequestLogContextServiceCollectionExtensions_AddRequestLogContext_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.AddRequestLogContext(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.AddRequestLogContext(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: RequestLogContextServiceCollectionExtensions.AddRequestLogContext(IServiceCollection)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.AddRequestLogContext*
+  name: AddRequestLogContext
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_RequestLogContext_RequestLogContextServiceCollectionExtensions_AddRequestLogContext_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.AddRequestLogContext
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.AddRequestLogContext
+  nameWithType: RequestLogContextServiceCollectionExtensions.AddRequestLogContext
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription
+  name: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.html
+  commentId: N:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription
+  nameWithType: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions
+  name: RequestLogContextServiceCollectionExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions
+  nameWithType: RequestLogContextServiceCollectionExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.AddServiceDescription(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddServiceDescription(IServiceCollection, IConfiguration)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_RequestLogContextServiceCollectionExtensions_AddServiceDescription_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.AddServiceDescription(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.AddServiceDescription(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: RequestLogContextServiceCollectionExtensions.AddServiceDescription(IServiceCollection, IConfiguration)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.AddServiceDescription*
+  name: AddServiceDescription
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_RequestLogContextServiceCollectionExtensions_AddServiceDescription_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.AddServiceDescription
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.AddServiceDescription
+  nameWithType: RequestLogContextServiceCollectionExtensions.AddServiceDescription
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions
+  name: ServiceDescriptionApplicationBuilderExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions
+  nameWithType: ServiceDescriptionApplicationBuilderExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.UseServiceDescription(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseServiceDescription(WebApplication)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionApplicationBuilderExtensions_UseServiceDescription_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.UseServiceDescription(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.UseServiceDescription(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: ServiceDescriptionApplicationBuilderExtensions.UseServiceDescription(WebApplication)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.UseServiceDescription*
+  name: UseServiceDescription
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionApplicationBuilderExtensions_UseServiceDescription_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.UseServiceDescription
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.UseServiceDescription
+  nameWithType: ServiceDescriptionApplicationBuilderExtensions.UseServiceDescription
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware
+  name: ServiceDescriptionMiddleware
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware
+  nameWithType: ServiceDescriptionMiddleware
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.#ctor(Fl.Shared.Utils.Components.Web.Models.ServiceDescription)
+  name: ServiceDescriptionMiddleware(ServiceDescription)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionMiddleware__ctor_Fl_Shared_Utils_Components_Web_Models_ServiceDescription_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.#ctor(Fl.Shared.Utils.Components.Web.Models.ServiceDescription)
+  name.vb: New(ServiceDescription)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.ServiceDescriptionMiddleware(Fl.Shared.Utils.Components.Web.Models.ServiceDescription)
+  fullName.vb: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.New(Fl.Shared.Utils.Components.Web.Models.ServiceDescription)
+  nameWithType: ServiceDescriptionMiddleware.ServiceDescriptionMiddleware(ServiceDescription)
+  nameWithType.vb: ServiceDescriptionMiddleware.New(ServiceDescription)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.#ctor*
+  name: ServiceDescriptionMiddleware
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionMiddleware__ctor_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.ServiceDescriptionMiddleware
+  fullName.vb: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.New
+  nameWithType: ServiceDescriptionMiddleware.ServiceDescriptionMiddleware
+  nameWithType.vb: ServiceDescriptionMiddleware.New
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)
+  name: InvokeAsync(HttpContext, RequestDelegate)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_Microsoft_AspNetCore_Http_RequestDelegate_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext, Microsoft.AspNetCore.Http.RequestDelegate)
+  nameWithType: ServiceDescriptionMiddleware.InvokeAsync(HttpContext, RequestDelegate)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionMiddleware_InvokeAsync_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.InvokeAsync
+  nameWithType: ServiceDescriptionMiddleware.InvokeAsync
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions
+  name: ServiceDescriptionWebApplicationBuilderExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions
+  nameWithType: ServiceDescriptionWebApplicationBuilderExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(Microsoft.AspNetCore.Builder.WebApplicationBuilder)
+  name: AddServiceDescriptionConfiguration(WebApplicationBuilder)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionWebApplicationBuilderExtensions_AddServiceDescriptionConfiguration_Microsoft_AspNetCore_Builder_WebApplicationBuilder_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(Microsoft.AspNetCore.Builder.WebApplicationBuilder)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(Microsoft.AspNetCore.Builder.WebApplicationBuilder)
+  nameWithType: ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(WebApplicationBuilder)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String)
+  name: AddServiceDescriptionConfiguration(WebApplicationBuilder, string)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionWebApplicationBuilderExtensions_AddServiceDescriptionConfiguration_Microsoft_AspNetCore_Builder_WebApplicationBuilder_System_String_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String)
+  name.vb: AddServiceDescriptionConfiguration(WebApplicationBuilder, String)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(Microsoft.AspNetCore.Builder.WebApplicationBuilder, string)
+  fullName.vb: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(Microsoft.AspNetCore.Builder.WebApplicationBuilder, String)
+  nameWithType: ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(WebApplicationBuilder, string)
+  nameWithType.vb: ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration(WebApplicationBuilder, String)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration*
+  name: AddServiceDescriptionConfiguration
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_ServiceDescription_ServiceDescriptionWebApplicationBuilderExtensions_AddServiceDescriptionConfiguration_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration
+  nameWithType: ServiceDescriptionWebApplicationBuilderExtensions.AddServiceDescriptionConfiguration
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext
+  name: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.html
+  commentId: N:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext
+  nameWithType: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions
+  name: TraceLogContextApplicationBuilderExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions
+  nameWithType: TraceLogContextApplicationBuilderExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.UseTraceLogContext(Microsoft.AspNetCore.Builder.WebApplication)
+  name: UseTraceLogContext(WebApplication)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_TraceLogContext_TraceLogContextApplicationBuilderExtensions_UseTraceLogContext_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.UseTraceLogContext(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.UseTraceLogContext(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: TraceLogContextApplicationBuilderExtensions.UseTraceLogContext(WebApplication)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.UseTraceLogContext*
+  name: UseTraceLogContext
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_TraceLogContext_TraceLogContextApplicationBuilderExtensions_UseTraceLogContext_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.UseTraceLogContext
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.UseTraceLogContext
+  nameWithType: TraceLogContextApplicationBuilderExtensions.UseTraceLogContext
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware
+  name: TraceLogContextMiddleware
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware
+  nameWithType: TraceLogContextMiddleware
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)
+  name: InvokeAsync(HttpContext, RequestDelegate)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_TraceLogContext_TraceLogContextMiddleware_InvokeAsync_Microsoft_AspNetCore_Http_HttpContext_Microsoft_AspNetCore_Http_RequestDelegate_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext,Microsoft.AspNetCore.Http.RequestDelegate)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext, Microsoft.AspNetCore.Http.RequestDelegate)
+  nameWithType: TraceLogContextMiddleware.InvokeAsync(HttpContext, RequestDelegate)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.InvokeAsync*
+  name: InvokeAsync
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.html#Fl_Shared_Utils_Components_Web_Middlewares_TraceLogContext_TraceLogContextMiddleware_InvokeAsync_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.InvokeAsync
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.InvokeAsync
+  nameWithType: TraceLogContextMiddleware.InvokeAsync
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions
+  name: TraceLogContextServiceCollectionExtensions
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions
+  nameWithType: TraceLogContextServiceCollectionExtensions
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.AddTraceLogContext(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddTraceLogContext(IServiceCollection)
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_TraceLogContext_TraceLogContextServiceCollectionExtensions_AddTraceLogContext_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.AddTraceLogContext(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.AddTraceLogContext(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: TraceLogContextServiceCollectionExtensions.AddTraceLogContext(IServiceCollection)
+- uid: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.AddTraceLogContext*
+  name: AddTraceLogContext
+  href: api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.html#Fl_Shared_Utils_Components_Web_Middlewares_TraceLogContext_TraceLogContextServiceCollectionExtensions_AddTraceLogContext_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.AddTraceLogContext
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.AddTraceLogContext
+  nameWithType: TraceLogContextServiceCollectionExtensions.AddTraceLogContext
+- uid: Fl.Shared.Utils.Components.Web.Models
+  name: Fl.Shared.Utils.Components.Web.Models
+  href: api/Fl.Shared.Utils.Components.Web.Models.html
+  commentId: N:Fl.Shared.Utils.Components.Web.Models
+  fullName: Fl.Shared.Utils.Components.Web.Models
+  nameWithType: Fl.Shared.Utils.Components.Web.Models
+- uid: Fl.Shared.Utils.Components.Web.Models.ErrorResponse
+  name: ErrorResponse
+  href: api/Fl.Shared.Utils.Components.Web.Models.ErrorResponse.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Models.ErrorResponse
+  fullName: Fl.Shared.Utils.Components.Web.Models.ErrorResponse
+  nameWithType: ErrorResponse
+- uid: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.#ctor(System.String)
+  name: ErrorResponse(string)
+  href: api/Fl.Shared.Utils.Components.Web.Models.ErrorResponse.html#Fl_Shared_Utils_Components_Web_Models_ErrorResponse__ctor_System_String_
+  commentId: M:Fl.Shared.Utils.Components.Web.Models.ErrorResponse.#ctor(System.String)
+  name.vb: New(String)
+  fullName: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.ErrorResponse(string)
+  fullName.vb: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.New(String)
+  nameWithType: ErrorResponse.ErrorResponse(string)
+  nameWithType.vb: ErrorResponse.New(String)
+- uid: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.#ctor*
+  name: ErrorResponse
+  href: api/Fl.Shared.Utils.Components.Web.Models.ErrorResponse.html#Fl_Shared_Utils_Components_Web_Models_ErrorResponse__ctor_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Models.ErrorResponse.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.ErrorResponse
+  fullName.vb: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.New
+  nameWithType: ErrorResponse.ErrorResponse
+  nameWithType.vb: ErrorResponse.New
+- uid: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.Message
+  name: Message
+  href: api/Fl.Shared.Utils.Components.Web.Models.ErrorResponse.html#Fl_Shared_Utils_Components_Web_Models_ErrorResponse_Message
+  commentId: P:Fl.Shared.Utils.Components.Web.Models.ErrorResponse.Message
+  fullName: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.Message
+  nameWithType: ErrorResponse.Message
+- uid: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.Message*
+  name: Message
+  href: api/Fl.Shared.Utils.Components.Web.Models.ErrorResponse.html#Fl_Shared_Utils_Components_Web_Models_ErrorResponse_Message_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Models.ErrorResponse.Message
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Models.ErrorResponse.Message
+  nameWithType: ErrorResponse.Message
+- uid: Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration
+  name: RoutingConfiguration
+  href: api/Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration
+  fullName: Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration
+  nameWithType: RoutingConfiguration
+- uid: Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.Default
+  name: Default
+  href: api/Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.html#Fl_Shared_Utils_Components_Web_Models_RoutingConfiguration_Default
+  commentId: F:Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.Default
+  fullName: Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.Default
+  nameWithType: RoutingConfiguration.Default
+- uid: Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.PathBase
+  name: PathBase
+  href: api/Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.html#Fl_Shared_Utils_Components_Web_Models_RoutingConfiguration_PathBase
+  commentId: P:Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.PathBase
+  fullName: Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.PathBase
+  nameWithType: RoutingConfiguration.PathBase
+- uid: Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.PathBase*
+  name: PathBase
+  href: api/Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.html#Fl_Shared_Utils_Components_Web_Models_RoutingConfiguration_PathBase_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.PathBase
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.PathBase
+  nameWithType: RoutingConfiguration.PathBase
+- uid: Fl.Shared.Utils.Components.Web.Models.ServiceDescription
+  name: ServiceDescription
+  href: api/Fl.Shared.Utils.Components.Web.Models.ServiceDescription.html
+  commentId: T:Fl.Shared.Utils.Components.Web.Models.ServiceDescription
+  fullName: Fl.Shared.Utils.Components.Web.Models.ServiceDescription
+  nameWithType: ServiceDescription
+- uid: Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Name
+  name: Name
+  href: api/Fl.Shared.Utils.Components.Web.Models.ServiceDescription.html#Fl_Shared_Utils_Components_Web_Models_ServiceDescription_Name
+  commentId: P:Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Name
+  fullName: Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Name
+  nameWithType: ServiceDescription.Name
+- uid: Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Name*
+  name: Name
+  href: api/Fl.Shared.Utils.Components.Web.Models.ServiceDescription.html#Fl_Shared_Utils_Components_Web_Models_ServiceDescription_Name_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Name
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Name
+  nameWithType: ServiceDescription.Name
+- uid: Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Version
+  name: Version
+  href: api/Fl.Shared.Utils.Components.Web.Models.ServiceDescription.html#Fl_Shared_Utils_Components_Web_Models_ServiceDescription_Version
+  commentId: P:Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Version
+  fullName: Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Version
+  nameWithType: ServiceDescription.Version
+- uid: Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Version*
+  name: Version
+  href: api/Fl.Shared.Utils.Components.Web.Models.ServiceDescription.html#Fl_Shared_Utils_Components_Web_Models_ServiceDescription_Version_
+  commentId: Overload:Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Version
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Components.Web.Models.ServiceDescription.Version
+  nameWithType: ServiceDescription.Version
+- uid: Fl.Shared.Utils.Mappers
+  name: Fl.Shared.Utils.Mappers
+  href: api/Fl.Shared.Utils.Mappers.html
+  commentId: N:Fl.Shared.Utils.Mappers
+  fullName: Fl.Shared.Utils.Mappers
+  nameWithType: Fl.Shared.Utils.Mappers
+- uid: Fl.Shared.Utils.Mappers.DataHttpContentMapper`1
+  name: DataHttpContentMapper<T>
+  href: api/Fl.Shared.Utils.Mappers.DataHttpContentMapper-1.html
+  commentId: T:Fl.Shared.Utils.Mappers.DataHttpContentMapper`1
+  name.vb: DataHttpContentMapper(Of T)
+  fullName: Fl.Shared.Utils.Mappers.DataHttpContentMapper<T>
+  fullName.vb: Fl.Shared.Utils.Mappers.DataHttpContentMapper(Of T)
+  nameWithType: DataHttpContentMapper<T>
+  nameWithType.vb: DataHttpContentMapper(Of T)
+- uid: Fl.Shared.Utils.Mappers.DataHttpContentMapper`1.Map(LanguageExt.Common.Error)
+  name: Map(Error)
+  href: api/Fl.Shared.Utils.Mappers.DataHttpContentMapper-1.html#Fl_Shared_Utils_Mappers_DataHttpContentMapper_1_Map_LanguageExt_Common_Error_
+  commentId: M:Fl.Shared.Utils.Mappers.DataHttpContentMapper`1.Map(LanguageExt.Common.Error)
+  fullName: Fl.Shared.Utils.Mappers.DataHttpContentMapper<T>.Map(LanguageExt.Common.Error)
+  fullName.vb: Fl.Shared.Utils.Mappers.DataHttpContentMapper(Of T).Map(LanguageExt.Common.Error)
+  nameWithType: DataHttpContentMapper<T>.Map(Error)
+  nameWithType.vb: DataHttpContentMapper(Of T).Map(Error)
+- uid: Fl.Shared.Utils.Mappers.DataHttpContentMapper`1.Map(LanguageExt.Option{`0})
+  name: Map(Option<T>)
+  href: api/Fl.Shared.Utils.Mappers.DataHttpContentMapper-1.html#Fl_Shared_Utils_Mappers_DataHttpContentMapper_1_Map_LanguageExt_Option__0__
+  commentId: M:Fl.Shared.Utils.Mappers.DataHttpContentMapper`1.Map(LanguageExt.Option{`0})
+  name.vb: Map(Option(Of T))
+  fullName: Fl.Shared.Utils.Mappers.DataHttpContentMapper<T>.Map(LanguageExt.Option<T>)
+  fullName.vb: Fl.Shared.Utils.Mappers.DataHttpContentMapper(Of T).Map(LanguageExt.Option(Of T))
+  nameWithType: DataHttpContentMapper<T>.Map(Option<T>)
+  nameWithType.vb: DataHttpContentMapper(Of T).Map(Option(Of T))
+- uid: Fl.Shared.Utils.Mappers.DataHttpContentMapper`1.Map*
+  name: Map
+  href: api/Fl.Shared.Utils.Mappers.DataHttpContentMapper-1.html#Fl_Shared_Utils_Mappers_DataHttpContentMapper_1_Map_
+  commentId: Overload:Fl.Shared.Utils.Mappers.DataHttpContentMapper`1.Map
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Mappers.DataHttpContentMapper<T>.Map
+  fullName.vb: Fl.Shared.Utils.Mappers.DataHttpContentMapper(Of T).Map
+  nameWithType: DataHttpContentMapper<T>.Map
+  nameWithType.vb: DataHttpContentMapper(Of T).Map
+- uid: Fl.Shared.Utils.Mappers.IApiResultMapper`1
+  name: IApiResultMapper<T>
+  href: api/Fl.Shared.Utils.Mappers.IApiResultMapper-1.html
+  commentId: T:Fl.Shared.Utils.Mappers.IApiResultMapper`1
+  name.vb: IApiResultMapper(Of T)
+  fullName: Fl.Shared.Utils.Mappers.IApiResultMapper<T>
+  fullName.vb: Fl.Shared.Utils.Mappers.IApiResultMapper(Of T)
+  nameWithType: IApiResultMapper<T>
+  nameWithType.vb: IApiResultMapper(Of T)
+- uid: Fl.Shared.Utils.Mappers.IMapper`2
+  name: IMapper<T1, T2>
+  href: api/Fl.Shared.Utils.Mappers.IMapper-2.html
+  commentId: T:Fl.Shared.Utils.Mappers.IMapper`2
+  name.vb: IMapper(Of T1, T2)
+  fullName: Fl.Shared.Utils.Mappers.IMapper<T1, T2>
+  fullName.vb: Fl.Shared.Utils.Mappers.IMapper(Of T1, T2)
+  nameWithType: IMapper<T1, T2>
+  nameWithType.vb: IMapper(Of T1, T2)
+- uid: Fl.Shared.Utils.Mappers.IMapper`2.Map(`0)
+  name: Map(T1)
+  href: api/Fl.Shared.Utils.Mappers.IMapper-2.html#Fl_Shared_Utils_Mappers_IMapper_2_Map__0_
+  commentId: M:Fl.Shared.Utils.Mappers.IMapper`2.Map(`0)
+  fullName: Fl.Shared.Utils.Mappers.IMapper<T1, T2>.Map(T1)
+  fullName.vb: Fl.Shared.Utils.Mappers.IMapper(Of T1, T2).Map(T1)
+  nameWithType: IMapper<T1, T2>.Map(T1)
+  nameWithType.vb: IMapper(Of T1, T2).Map(T1)
+- uid: Fl.Shared.Utils.Mappers.IMapper`2.Map*
+  name: Map
+  href: api/Fl.Shared.Utils.Mappers.IMapper-2.html#Fl_Shared_Utils_Mappers_IMapper_2_Map_
+  commentId: Overload:Fl.Shared.Utils.Mappers.IMapper`2.Map
+  isSpec: "True"
+  fullName: Fl.Shared.Utils.Mappers.IMapper<T1, T2>.Map
+  fullName.vb: Fl.Shared.Utils.Mappers.IMapper(Of T1, T2).Map
+  nameWithType: IMapper<T1, T2>.Map
+  nameWithType.vb: IMapper(Of T1, T2).Map

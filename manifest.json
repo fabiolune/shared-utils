@@ -1,0 +1,780 @@
+{
+  "source_base_path": "/home/runner/work/shared-utils/shared-utils/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.Builder.LoggingWebApplicationBuilderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Builder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Builder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.Builder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.Either.EitherLoggingExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Either.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Either.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.Either",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.Error.ErrorExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Error.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.Error.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.Error",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.HostBuilderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.HostBuilder",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.LoggerConfigurationExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Extensions.LoggerConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Models.SerilogConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Logging.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Logging.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Logging.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Endpoints.IEndpoint",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Endpoints.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Endpoints",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.EndpointServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.JsonSerializationServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.RoutingBasePathServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.ServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.ServiceCollection",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.WebApplication.ApplicationBuilderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.WebApplication.EndpointWebApplicationExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.WebApplication.RoutingBasePathWebApplicationExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Extensions.WebApplication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Extensions.WebApplication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.ExceptionHandlerApplicationBuilderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.JsonExceptionHandlerMiddleware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.RequestLogContextServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ExceptionHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextApplicationBuilderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextMiddleware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.RequestLogContextServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.RequestLogContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.RequestLogContextServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionApplicationBuilderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionMiddleware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.ServiceDescriptionWebApplicationBuilderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.ServiceDescription",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextApplicationBuilderExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextMiddleware",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.TraceLogContextServiceCollectionExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Middlewares.TraceLogContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Models.ErrorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Models.ErrorResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Models.ErrorResponse",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Models.RoutingConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Models.ServiceDescription.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Models.ServiceDescription.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Models.ServiceDescription",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Components.Web.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Components.Web.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Components.Web.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Mappers.DataHttpContentMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Mappers.DataHttpContentMapper-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Mappers.DataHttpContentMapper<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Mappers.IApiResultMapper-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Mappers.IApiResultMapper-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Mappers.IApiResultMapper<T>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Mappers.IMapper-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Mappers.IMapper-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Mappers.IMapper<T1, T2>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Fl.Shared.Utils.Mappers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Fl.Shared.Utils.Mappers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Fl.Shared.Utils.Mappers",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/fl-shared-utils-components-web-models.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/fl-shared-utils-components-web-models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/fl-shared-utils-components.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/fl-shared-utils-components.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/fl-shared-utils-mappers.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/fl-shared-utils-mappers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

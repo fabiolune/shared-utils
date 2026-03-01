@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Fl.Shared.Utils.Mappers | Functional Redis Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Fl.Shared.Utils.Mappers | Functional Redis Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fabiolune/shared-utils/blob/v0.2.0/docs/docs/fl-shared-utils-mappers.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="flsharedutilsmappers">Fl.Shared.Utils.Mappers</h1>
+
+<p>Shared mapper library for .NET web applications. Provides generic mapping abstractions and a ready-made implementation that converts functional types (<code>Option</code>, <code>Error</code>) into ASP.NET Core <code>IResult</code> HTTP responses.</p>
+<hr>
+<h2 id="project-structure">Project structure</h2>
+<pre><code class="lang-text">Fl.Shared.Utils.Mappers/
+├── IMapper.cs
+├── IApiResultMapper.cs
+└── DataHttpContentMapper.cs
+</code></pre>
+<hr>
+<h2 id="interfaces">Interfaces</h2>
+<h3 id="imappert1-t2"><code>IMapper&lt;T1, T2&gt;</code></h3>
+<p>Generic mapping contract between two types.</p>
+<pre><code class="lang-csharp">public interface IMapper&lt;in T1, out T2&gt;
+{
+    T2 Map(T1 item);
+}
+</code></pre>
+<p>Use this interface to define any single-direction mapping between an input type <code>T1</code> and an output type <code>T2</code>.</p>
+<hr>
+<h3 id="iapiresultmappert"><code>IApiResultMapper&lt;T&gt;</code></h3>
+<p>Specialisation of <code>IMapper</code> for mapping API results to ASP.NET Core <code>IResult</code>. Combines two mapping contracts:</p>
+<ul>
+<li><code>IMapper&lt;Option&lt;T&gt;, IResult&gt;</code> — maps an optional value to an HTTP response</li>
+<li><code>IMapper&lt;Error, IResult&gt;</code> — maps a functional error to an HTTP response</li>
+</ul>
+<pre><code class="lang-csharp">public interface IApiResultMapper&lt;T&gt; :
+    IMapper&lt;Option&lt;T&gt;, IResult&gt;,
+    IMapper&lt;Error, IResult&gt;
+{ }
+</code></pre>
+<hr>
+<h2 id="implementations">Implementations</h2>
+<h3 id="datahttpcontentmappert"><code>DataHttpContentMapper&lt;T&gt;</code></h3>
+<p>Default implementation of <code>IApiResultMapper&lt;T&gt;</code>. Maps <code>Option&lt;T&gt;</code> and <code>Error</code> values to JSON <code>IResult</code> responses with appropriate HTTP status codes.</p>
+<table>
+<thead>
+<tr>
+<th>Input</th>
+<th>HTTP status</th>
+<th>Response body</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Option&lt;T&gt;.Some(value)</code></td>
+<td><code>200 OK</code></td>
+<td>JSON-serialised <code>value</code></td>
+</tr>
+<tr>
+<td><code>Option&lt;T&gt;.None</code></td>
+<td><code>404 Not Found</code></td>
+<td><code>{ &quot;message&quot;: &quot;Not Found&quot; }</code></td>
+</tr>
+<tr>
+<td><code>Error</code></td>
+<td><code>500 Internal Server Error</code></td>
+<td><code>{ &quot;message&quot;: &quot;Internal Server Error&quot; }</code></td>
+</tr>
+</tbody>
+</table>
+<p>Error responses use <code>ErrorResponse</code> (from <code>Fl.Shared.Utils.Components.Web.Models</code>) with the reason phrase derived from the HTTP status code.</p>
+<h4 id="usage">Usage</h4>
+<pre><code class="lang-csharp">// Register in DI
+services.AddSingleton&lt;IApiResultMapper&lt;MyDto&gt;, DataHttpContentMapper&lt;MyDto&gt;&gt;();
+
+// Use in a minimal API endpoint
+app.MapGet(&quot;/items/{id}&quot;, async (int id, IApiResultMapper&lt;MyDto&gt; mapper, IMyService service) =&gt;
+{
+    Option&lt;MyDto&gt; result = await service.GetById(id);
+    return mapper.Map(result);
+});
+</code></pre>
+<hr>
+<h2 id="tests">Tests</h2>
+<p>Unit tests are located in <code>tests/Fl.Shared.Utils.Mappers.Tests</code> and cover:</p>
+<table>
+<thead>
+<tr>
+<th>Class under test</th>
+<th>Scenarios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>DataHttpContentMapper&lt;T&gt;</code></td>
+<td><code>Error</code> input → 500 JSON with <code>&quot;Internal Server Error&quot;</code></td>
+</tr>
+<tr>
+<td><code>DataHttpContentMapper&lt;T&gt;</code></td>
+<td><code>Option.None</code> input → 404 JSON with <code>&quot;Not Found&quot;</code></td>
+</tr>
+<tr>
+<td><code>DataHttpContentMapper&lt;T&gt;</code></td>
+<td><code>Option.Some(value)</code> input → 200 JSON with the original value</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="main-dependencies">Main dependencies</h2>
+<ul>
+<li><a href="https://github.com/louthy/language-ext">LanguageExt</a> — functional types (<code>Option</code>, <code>Error</code>)</li>
+<li><code>Microsoft.AspNetCore.App</code> — <code>IResult</code>, <code>Results</code>, <code>StatusCodes</code></li>
+<li><code>Fl.Functional.Utils</code> — functional utilities (Map, etc.)</li>
+<li><code>Fl.Shared.Utils.Components.Web.Models</code> — <code>ErrorResponse</code></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fabiolune/shared-utils/blob/v0.2.0/docs/docs/fl-shared-utils-mappers.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

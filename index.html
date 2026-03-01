@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>shared-utils | Functional Redis Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="shared-utils | Functional Redis Documentation ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fabiolune/shared-utils/blob/v0.2.0/docs/index.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+
+
+<p>version 0.2.0</p>
+<p>repo url: <a href="https://github.com/fabiolune/shared-utils">https://github.com/fabiolune/shared-utils</a></p>
+<h1 id="shared-utils">shared-utils</h1>
+<p><a href="https://github.com/fabiolune/shared-utils/actions/workflows/main.yml"><img src="https://github.com/fabiolune/shared-utils/actions/workflows/main.yml/badge.svg" alt="dotnet"></a>
+<a href="https://sonarcloud.io/summary/new_code?id=fabiolune_shared-utils"><img src="https://sonarcloud.io/api/project_badges/measure?project=fabiolune_shared-utils&amp;metric=alert_status" alt="Quality Gate Status"></a>
+<a href="https://codecov.io/gh/fabiolune/shared-utils"><img src="https://codecov.io/gh/fabiolune/shared-utils/graph/badge.svg?token=1UP7YCFDML" alt="codecov"></a>
+<a href="https://dashboard.stryker-mutator.io/reports/github.com/fabiolune/shared-utils/main"><img src="https://img.shields.io/endpoint?style=flat&amp;url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Ffabiolune%2Fshared-utils%2Fmain" alt="Mutation testing badge"></a></p>
+<p>A collection of .NET libraries that provide shared building blocks for web applications. The solution follows a functional programming style built on top of <a href="https://github.com/louthy/language-ext">LanguageExt</a> and targets <code>net8.0</code>, <code>net9.0</code> and <code>net10.0</code>.</p>
+<hr>
+<h2 id="solution-structure">Solution structure</h2>
+<pre><code class="lang-text">shared-utils/
+├── Fl.Shared.Utils.Components.Web.Models/   # Shared model records (DTOs)
+├── Fl.Shared.Utils.Components/              # Logging &amp; web middleware components
+├── Fl.Shared.Utils.Mappers/                 # Mapper abstractions and implementations
+└── tests/
+    ├── Fl.Shared.Utils.Components.Unit.Tests/
+    └── Fl.Shared.Utils.Mappers.Tests/
+</code></pre>
+<hr>
+<h2 id="projects">Projects</h2>
+<h3 id="flsharedutilscomponentswebmodels"><a href="Fl.Shared.Utils.Components.Web.Models/README.md"><code>Fl.Shared.Utils.Components.Web.Models</code></a></h3>
+<p>Lightweight model library with no external dependencies. Defines the shared records used by the other projects:</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ErrorResponse</code></td>
+<td>JSON error payload (<code>{ &quot;message&quot;: &quot;...&quot; }</code>)</td>
+</tr>
+<tr>
+<td><code>RoutingConfiguration</code></td>
+<td>Optional URL base-path configuration</td>
+</tr>
+<tr>
+<td><code>ServiceDescription</code></td>
+<td>Service name and version metadata</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="flsharedutilscomponents"><a href="Fl.Shared.Utils.Components/README.md"><code>Fl.Shared.Utils.Components</code></a></h3>
+<p>The main component library. Provides reusable infrastructure for logging and ASP.NET Core web pipelines.</p>
+<h3 id="logging">Logging</h3>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SerilogConfiguration</code></td>
+<td>Configuration record for Serilog (level, overrides, environment, system, customer)</td>
+</tr>
+<tr>
+<td><code>LoggerConfigurationExtensions</code></td>
+<td>Default Serilog setup with CompactJson console output</td>
+</tr>
+<tr>
+<td><code>HostBuilderExtensions</code></td>
+<td><code>AddSerilogLogging</code> on <code>IHostBuilder</code></td>
+</tr>
+<tr>
+<td><code>LoggingWebApplicationBuilderExtensions</code></td>
+<td><code>AddSerilogLogging</code> on <code>WebApplicationBuilder</code></td>
+</tr>
+<tr>
+<td><code>EitherLoggingExtensions</code></td>
+<td><code>TeeLog</code> on <code>Either&lt;Error, T&gt;</code> / <code>EitherAsync&lt;Error, T&gt;</code></td>
+</tr>
+<tr>
+<td><code>ErrorExtensions</code></td>
+<td>Convert a <code>LanguageExt.Common.Error</code> to a logging <code>Action</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="web-middleware">Web middleware</h3>
+<table>
+<thead>
+<tr>
+<th>Middleware</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>JsonExceptionHandlerMiddleware</code></td>
+<td>Catches unhandled exceptions → HTTP 500 JSON</td>
+</tr>
+<tr>
+<td><code>RequestLogContextMiddleware</code></td>
+<td>Enriches Serilog context with <code>CorrelationId</code></td>
+</tr>
+<tr>
+<td><code>TraceLogContextMiddleware</code></td>
+<td>Enriches Serilog context with <code>SpanId</code> / <code>TraceId</code></td>
+</tr>
+<tr>
+<td><code>ServiceDescriptionMiddleware</code></td>
+<td>Serves service metadata at <code>GET /internal/description</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="key-extension-methods">Key extension methods</h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>services.AddDefaultComponents(config)</code></td>
+<td>Registers all default middleware and services</td>
+</tr>
+<tr>
+<td><code>app.UseDefaultMiddlewares()</code></td>
+<td>Wires up the default middleware pipeline</td>
+</tr>
+<tr>
+<td><code>services.AddEndpointDefinitions(...)</code></td>
+<td>Scans assemblies for <code>IEndpoint</code> implementations</td>
+</tr>
+<tr>
+<td><code>app.UseEndpointDefinitions()</code></td>
+<td>Calls <code>DefineEndpoints</code> on all registered <code>IEndpoint</code>s</td>
+</tr>
+<tr>
+<td><code>app.UseRoutingBasePath()</code></td>
+<td>Applies the configured URL base path</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="flsharedutilsmappers"><a href="Fl.Shared.Utils.Mappers/README.md"><code>Fl.Shared.Utils.Mappers</code></a></h3>
+<p>Mapper abstractions and a default HTTP-result implementation.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>IMapper&lt;T1, T2&gt;</code></td>
+<td>Generic single-direction mapping contract</td>
+</tr>
+<tr>
+<td><code>IApiResultMapper&lt;T&gt;</code></td>
+<td>Maps <code>Option&lt;T&gt;</code> and <code>Error</code> to ASP.NET Core <code>IResult</code></td>
+</tr>
+<tr>
+<td><code>DataHttpContentMapper&lt;T&gt;</code></td>
+<td>Default implementation: <code>Some</code> → 200, <code>None</code> → 404, <code>Error</code> → 500</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="quality">Quality</h2>
+<table>
+<thead>
+<tr>
+<th>Concern</th>
+<th>Tooling</th>
+<th>Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unit testing</td>
+<td><a href="https://nunit.org/">NUnit</a> + <a href="https://nsubstitute.github.io/">NSubstitute</a> + <a href="https://docs.shouldly.org/">Shouldly</a></td>
+<td>—</td>
+</tr>
+<tr>
+<td>Code coverage</td>
+<td><a href="https://github.com/coverlet-coverage/coverlet">Coverlet</a> + <a href="https://codecov.io/">Codecov</a></td>
+<td>100 %</td>
+</tr>
+<tr>
+<td>Mutation testing</td>
+<td><a href="https://stryker-mutator.io/">Stryker.NET</a> (advanced level)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Versioning</td>
+<td><a href="https://gitversion.net/">GitVersion</a> — ContinuousDelivery on <code>main</code></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="key-dependencies">Key dependencies</h2>
+<table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/louthy/language-ext">LanguageExt</a></td>
+<td>Functional types (<code>Either</code>, <code>Option</code>, <code>Error</code>)</td>
+</tr>
+<tr>
+<td><a href="https://serilog.net/">Serilog</a></td>
+<td>Structured logging</td>
+</tr>
+<tr>
+<td><a href="https://github.com/stevejgordon/CorrelationId">CorrelationId</a></td>
+<td>HTTP correlation ID propagation</td>
+</tr>
+<tr>
+<td><a href="https://github.com/khellang/Scrutor">Scrutor</a></td>
+<td>Assembly scanning for <code>IEndpoint</code></td>
+</tr>
+<tr>
+<td><code>Fl.Functional.Utils</code></td>
+<td>Internal functional utilities (Tee, Map, MakeOption, …)</td>
+</tr>
+<tr>
+<td><code>Fl.Configuration.Extensions</code></td>
+<td>Strongly-typed configuration helpers</td>
+</tr>
+</tbody>
+</table>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fabiolune/shared-utils/blob/v0.2.0/docs/index.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

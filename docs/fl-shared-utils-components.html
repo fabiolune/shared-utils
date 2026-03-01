@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Fl.Shared.Utils.Components | Functional Redis Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Fl.Shared.Utils.Components | Functional Redis Documentation ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/fabiolune/shared-utils/blob/v0.2.0/docs/docs/fl-shared-utils-components.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../images/logo.png" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="flsharedutilscomponents">Fl.Shared.Utils.Components</h1>
+
+<p>Shared component library for .NET web applications. Provides reusable extensions, middleware and configurations for logging, exception handling, routing and service description.</p>
+<hr>
+<h2 id="project-structure">Project structure</h2>
+<pre><code class="lang-test">Fl.Shared.Utils.Components/
+├── Constants.cs
+├── Logging/
+│   ├── Models/
+│   │   └── LoggingConfiguration.cs
+│   └── Extensions/
+│       ├── Builder/
+│       ├── Either/
+│       ├── Error/
+│       ├── HostBuilder/
+│       └── LoggerConfiguration/
+└── Web/
+    ├── Endpoints/
+    ├── Extensions/
+    │   ├── ServiceCollection/
+    │   └── WebApplication/
+    └── Middlewares/
+        ├── ExceptionHandler/
+        ├── RequestLogContext/
+        ├── ServiceDescription/
+        └── TraceLogContext/
+</code></pre>
+<hr>
+<h2 id="logging">Logging</h2>
+<h3 id="models">Models</h3>
+<h4 id="serilogconfiguration"><code>SerilogConfiguration</code></h4>
+<p>Configuration record for Serilog, bindable from <code>appsettings.json</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Environment</code></td>
+<td><code>string</code></td>
+<td><code>&quot;&quot;</code></td>
+<td>Environment name (e.g. <code>production</code>)</td>
+</tr>
+<tr>
+<td><code>System</code></td>
+<td><code>string</code></td>
+<td><code>&quot;&quot;</code></td>
+<td>Application system name</td>
+</tr>
+<tr>
+<td><code>Customer</code></td>
+<td><code>string</code></td>
+<td><code>&quot;&quot;</code></td>
+<td>Customer identifier</td>
+</tr>
+<tr>
+<td><code>MinimumLevel</code></td>
+<td><code>LogEventLevel</code></td>
+<td><code>Information</code></td>
+<td>Minimum log level</td>
+</tr>
+<tr>
+<td><code>Overrides</code></td>
+<td><code>IDictionary&lt;string, LogEventLevel&gt;</code></td>
+<td><code>{}</code></td>
+<td>Per-namespace log level overrides</td>
+</tr>
+</tbody>
+</table>
+<h3 id="extensions">Extensions</h3>
+<h4 id="loggerconfigurationextensions"><code>LoggerConfigurationExtensions</code></h4>
+<p>Extensions on <code>Serilog.LoggerConfiguration</code> to apply default settings.</p>
+<pre><code class="lang-csharp">// Configure with Information level and CompactJson console output
+loggerConfig.ConfigureDefault();
+
+// Configure with a specific level
+loggerConfig.ConfigureDefault(LogEventLevel.Debug);
+
+// Configure with a full SerilogConfiguration (also enriches with Environment, System, Customer)
+loggerConfig.ConfigureDefault(serilogConfig);
+</code></pre>
+<h4 id="hostbuilderextensions"><code>HostBuilderExtensions</code></h4>
+<p>Extensions on <code>IHostBuilder</code> to add Serilog.</p>
+<pre><code class="lang-csharp">// From a SerilogConfiguration instance
+hostBuilder.AddSerilogLogging(serilogConfig);
+
+// From IConfiguration (binds SerilogConfiguration automatically)
+hostBuilder.AddSerilogLogging(configuration);
+</code></pre>
+<h4 id="loggingwebapplicationbuilderextensions"><code>LoggingWebApplicationBuilderExtensions</code></h4>
+<p>Extension on <code>WebApplicationBuilder</code> to add Serilog by reading configuration automatically.</p>
+<pre><code class="lang-csharp">builder.AddSerilogLogging();
+</code></pre>
+<h4 id="eitherloggingextensions"><code>EitherLoggingExtensions</code></h4>
+<p>Extensions on <code>Either&lt;Error, T&gt;</code> and <code>EitherAsync&lt;Error, T&gt;</code> to log the left (error) branch without breaking the functional chain.</p>
+<pre><code class="lang-csharp">// With an explicit template
+either.TeeLog(logger, &quot;{Component} returned {Message}&quot;, componentName, message);
+
+// With only the component name (uses default template)
+either.TeeLog(logger, &quot;MyComponent&quot;);
+
+// Also available for EitherAsync
+eitherAsync.TeeLog(logger, &quot;MyComponent&quot;);
+</code></pre>
+<h4 id="errorextensions"><code>ErrorExtensions</code></h4>
+<p>Extensions on <code>LanguageExt.Common.Error</code> to convert an error into a logging <code>Action</code>.</p>
+<pre><code class="lang-csharp">// With a custom template
+var logAction = error.ToLoggingAction(logger, &quot;{Component} error: {Message}&quot;, componentName, error.Message);
+
+// With component name only (uses default template &quot;{Component} raised an error with {Message}&quot;)
+var logAction = error.ToLoggingAction(logger, &quot;MyComponent&quot;);
+</code></pre>
+<hr>
+<h2 id="web">Web</h2>
+<h3 id="endpoints">Endpoints</h3>
+<h4 id="iendpoint"><code>IEndpoint</code></h4>
+<p>Interface for defining endpoints via minimal API.</p>
+<pre><code class="lang-csharp">public interface IEndpoint
+{
+    WebApplication DefineEndpoints(WebApplication app);
+}
+</code></pre>
+<p>Implement this interface and register implementations via <code>AddEndpointDefinitions</code>.</p>
+<hr>
+<h3 id="middleware">Middleware</h3>
+<h4 id="jsonexceptionhandlermiddleware"><code>JsonExceptionHandlerMiddleware</code></h4>
+<p>Catches any unhandled exception in the pipeline and returns an HTTP 500 JSON response containing the error message.</p>
+<pre><code class="lang-json">{
+  &quot;message&quot;: &quot;Error description&quot;
+}
+</code></pre>
+<p>Registration:</p>
+<pre><code class="lang-csharp">services.AddExceptionHandler();
+// ...
+app.UseJsonExceptionHandler();
+</code></pre>
+<h4 id="requestlogcontextmiddleware"><code>RequestLogContextMiddleware</code></h4>
+<p>Enriches the Serilog log context with a <code>CorrelationId</code> property for every HTTP request, reading it from <code>ICorrelationContextAccessor</code>.</p>
+<p>Registration:</p>
+<pre><code class="lang-csharp">services.AddRequestLogContext();
+// ...
+app.UseRequestLogContext();
+</code></pre>
+<h4 id="tracelogcontextmiddleware"><code>TraceLogContextMiddleware</code></h4>
+<p>Enriches the Serilog log context with <code>SpanId</code> and <code>TraceId</code> properties from the current <code>Activity</code> (W3C trace context).</p>
+<p>Registration:</p>
+<pre><code class="lang-csharp">services.AddTraceLogContext();
+// ...
+app.UseTraceLogContext();
+</code></pre>
+<h4 id="servicedescriptionmiddleware"><code>ServiceDescriptionMiddleware</code></h4>
+<p>Exposes service metadata (name and version) at the <code>GET /internal/description</code> endpoint. All other requests are forwarded to the next middleware.</p>
+<p>Example response:</p>
+<pre><code class="lang-json">{
+  &quot;name&quot;: &quot;my-service&quot;,
+  &quot;version&quot;: &quot;1.0.0&quot;
+}
+</code></pre>
+<p>Registration:</p>
+<pre><code class="lang-csharp">services.AddServiceDescription(configuration);
+// ...
+app.UseServiceDescription();
+</code></pre>
+<p>Configuration is loaded from <code>servicedescription.json</code> (or a custom file):</p>
+<pre><code class="lang-csharp">builder.AddServiceDescriptionConfiguration();                     // servicedescription.json (default)
+builder.AddServiceDescriptionConfiguration(&quot;custom-file.json&quot;);   // custom file
+</code></pre>
+<hr>
+<h3 id="iservicecollection-extensions"><code>IServiceCollection</code> extensions</h3>
+<h4 id="servicecollectionextensions"><code>ServiceCollectionExtensions</code></h4>
+<pre><code class="lang-csharp">// Registers all default components in a single call:
+// - JsonExceptionHandlerMiddleware
+// - RequestLogContextMiddleware
+// - ServiceDescriptionMiddleware
+// - CorrelationId
+// - RoutingConfiguration
+// - JsonStringEnumConverter
+services.AddDefaultComponents(configuration);
+
+// Registers a strongly-typed configuration object read from IConfiguration
+services.AddFromAppConfiguration&lt;MyConfig&gt;(configuration);
+</code></pre>
+<h4 id="routingbasepathservicecollectionextensions"><code>RoutingBasePathServiceCollectionExtensions</code></h4>
+<p>Registers <code>RoutingConfiguration</code> to configure an optional base path.</p>
+<pre><code class="lang-csharp">services.AddRoutingBasePath(configuration);
+</code></pre>
+<h4 id="jsonserializationservicecollectionextensions"><code>JsonSerializationServiceCollectionExtensions</code></h4>
+<p>Adds <code>JsonStringEnumConverter</code> to the JSON serialization options.</p>
+<pre><code class="lang-csharp">services.AddJsonSerializationConfiguration();
+</code></pre>
+<h4 id="endpointservicecollectionextensions"><code>EndpointServiceCollectionExtensions</code></h4>
+<p>Scans the specified assemblies and registers all <code>IEndpoint</code> implementations as singletons.</p>
+<pre><code class="lang-csharp">// From marker types
+services.AddEndpointDefinitions(typeof(MyMarker));
+
+// From assemblies
+services.AddEndpointDefinitions(Assembly.GetExecutingAssembly());
+</code></pre>
+<hr>
+<h3 id="webapplication-extensions"><code>WebApplication</code> extensions</h3>
+<h4 id="applicationbuilderextensions"><code>ApplicationBuilderExtensions</code></h4>
+<p>Registers the default middleware pipeline in the correct order.</p>
+<pre><code class="lang-csharp">app.UseDefaultMiddlewares();
+// Equivalent to:
+// app.UseServiceDescription()
+// app.UseCorrelationId()
+// app.UseRequestLogContext()
+// app.UseJsonExceptionHandler()
+</code></pre>
+<h4 id="routingbasepathwebapplicationextensions"><code>RoutingBasePathWebApplicationExtensions</code></h4>
+<p>Configures the routing base path if <code>RoutingConfiguration.PathBase</code> is set.</p>
+<pre><code class="lang-csharp">app.UseRoutingBasePath();
+</code></pre>
+<h4 id="endpointwebapplicationextensions"><code>EndpointWebApplicationExtensions</code></h4>
+<p>Calls <code>DefineEndpoints</code> on all <code>IEndpoint</code> implementations registered in the container.</p>
+<pre><code class="lang-csharp">app.UseEndpointDefinitions();
+</code></pre>
+<hr>
+<h2 id="tests">Tests</h2>
+<p>Unit tests are located in <code>tests/Fl.Shared.Utils.Components.Unit.Tests</code> and cover:</p>
+<table>
+<thead>
+<tr>
+<th>Area</th>
+<th>Class under test</th>
+<th>Scenarios</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Web / Middleware</td>
+<td><code>JsonExceptionHandlerMiddleware</code></td>
+<td>Exception in delegate → 500 + JSON error message; no exception → next delegate invoked</td>
+</tr>
+<tr>
+<td>Web / Middleware</td>
+<td><code>ServiceDescriptionMiddleware</code></td>
+<td>Request to <code>/internal/description</code> → 200 + JSON with name and version; other path → next delegate invoked</td>
+</tr>
+<tr>
+<td>Logging / Extensions</td>
+<td><code>EitherLoggingExtensions</code></td>
+<td>Error logged on the left branch of <code>Either</code> and <code>EitherAsync</code></td>
+</tr>
+<tr>
+<td>Logging / Extensions</td>
+<td><code>ErrorExtensions</code></td>
+<td><code>Error</code> converted to a logging <code>Action</code>, with and without an associated exception</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="main-dependencies">Main dependencies</h2>
+<ul>
+<li><a href="https://serilog.net/">Serilog</a> — structured logging</li>
+<li><a href="https://github.com/louthy/language-ext">LanguageExt</a> — functional types (<code>Either</code>, <code>Error</code>, etc.)</li>
+<li><a href="https://github.com/stevejgordon/CorrelationId">CorrelationId</a> — correlation ID propagation</li>
+<li><a href="https://github.com/khellang/Scrutor">Scrutor</a> — assembly scanning for <code>IEndpoint</code></li>
+<li><code>Fl.Functional.Utils</code> — functional utilities (Tee, Map, MakeOption, etc.)</li>
+<li><code>Fl.Configuration.Extensions</code> — extensions for reading strongly-typed configurations</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/fabiolune/shared-utils/blob/v0.2.0/docs/docs/fl-shared-utils-components.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
