@@ -2,6 +2,11 @@
 
 # shared-utils
 
+[![dotnet](https://github.com/fabiolune/shared-utils/actions/workflows/main.yml/badge.svg)](https://github.com/fabiolune/shared-utils/actions/workflows/main.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=fabiolune_shared-utils&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=fabiolune_shared-utils)
+[![codecov](https://codecov.io/gh/fabiolune/shared-utils/graph/badge.svg?token=1UP7YCFDML)](https://codecov.io/gh/fabiolune/shared-utils)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Ffabiolune%2Fshared-utils%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/fabiolune/shared-utils/main)
+
 A collection of .NET libraries that provide shared building blocks for web applications. The solution follows a functional programming style built on top of [LanguageExt](https://github.com/louthy/language-ext) and targets `net8.0`, `net9.0` and `net10.0`.
 
 ---
