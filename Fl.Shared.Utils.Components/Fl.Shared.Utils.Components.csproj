@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="fl-configuration-extensions" Version="0.2.0" />
+    <PackageReference Include="fl-configuration-extensions" Version="0.3.0" />
     <PackageReference Include="CorrelationId" Version="3.0.1" />
     <PackageReference Include="Scrutor" Version="7.0.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="10.0.0" />
